@@ -1,0 +1,20 @@
+<template>
+  <div class="menu-item">
+    <a href="#"> {{ tittle }}</a>
+  </div>
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
+	<rect width="24" height="24" fill="none" />
+	<path fill="white" d="m7 10l5 5l5-5z" />
+</svg>
+</template>
+
+<script>
+export default {
+  name: 'Dropdown',
+  props: ['tittle', 'items']
+};
+</script>
+
+<style>
+</style>
